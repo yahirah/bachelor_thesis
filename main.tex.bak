@@ -1,0 +1,50 @@
+\include{header}
+\begin{document}
+
+\pagenumbering{alph}
+\include{titlepage}
+
+
+\pagenumbering{roman}
+\tableofcontents
+
+%\listoffigures
+\newpage
+%todo: run compilation on each file to find all todos; winshell seems lost on includes
+\pagenumbering{arabic}
+
+\addtolength{\parskip}{\baselineskip}
+\makeatletter
+
+\def\@listi{%
+  % default settings for base LaTeX classes at 10pt:
+  \parsep 4pt plus 2pt minus 1pt
+  \topsep 6pt plus 2pt minus 4pt
+  \itemsep 2pt plus 2pt minus 1pt
+  % your settings:
+  \parskip 1em plus 1pt minus 1pt
+}
+\def\@list{%
+  % default settings for base LaTeX classes at 10pt:
+  \parsep 4pt plus 2pt minus 1pt
+  \topsep 6pt plus 2pt minus 4pt
+  \itemsep 2pt plus 2pt minus 1pt
+  % your settings:
+  \parskip 1em plus 1pt minus 1pt
+}
+
+\makeatother
+
+
+\include{01_wprowadzenie}
+\include{02_analiza}
+\include{03_projektowanie}
+\include{04_implementacja}
+\include{05_instrukcja}
+\include{06_testowanie}
+\include{07_podsumowanie}
+
+\bibliography{}
+\include{appx}
+
+\end{document}

@@ -1,0 +1,66 @@
+\select@language {UKenglish}
+\select@language {UKenglish}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Haptic devices}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Dyspraxia}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Project goal}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Report content}{2}{section.1.4}
+\contentsline {chapter}{\numberline {2}Analysis}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Developmental coordination disorder (dyspraxia)}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Prevalence}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Symptoms}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Real-life impact}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Diagnosing}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Treatment}{5}{section.2.6}
+\contentsline {section}{\numberline {2.7}Haptic devices in rehabilitation}{6}{section.2.7}
+\contentsline {section}{\numberline {2.8}Haptic factors essential for rehabilitation. Phantom Omni description.}{7}{section.2.8}
+\contentsline {section}{\numberline {2.9}Game rules analysis}{8}{section.2.9}
+\contentsline {chapter}{\numberline {3}Design}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Basic game rules and objects}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Path}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Haptic objects and displayed objects}{9}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Levelling up}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Controls}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Display and scene}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}Measuring player's score}{11}{section.3.5}
+\contentsline {chapter}{\numberline {4}Implementation}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Haptic devices}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Programming language and libraries}{12}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Graphic library}{12}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Haptic library}{13}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Programming language}{14}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Code samples}{14}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Other used programming tools}{14}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}IDE}{14}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Version control}{14}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Components}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Data flow}{15}{section.4.5}
+\contentsline {section}{\numberline {4.6}Class structure}{15}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Data structures}{15}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Initialization}{16}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Drawing components}{16}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Haptic components}{18}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Controllers}{18}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Camera}{19}{subsection.4.6.6}
+\contentsline {section}{\numberline {4.7}Implementation details}{19}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Path graphical and haptic representation}{19}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Progress detecting}{19}{subsection.4.7.2}
+\contentsline {chapter}{\numberline {5}User's manual}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Launching prerequisites}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}General tips}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Controls}{21}{section.5.3}
+\contentsline {section}{\numberline {5.4}Advanced options}{22}{section.5.4}
+\contentsline {section}{\numberline {5.5}Quitting the game}{22}{section.5.5}
+\contentsline {chapter}{\numberline {6}Testing and launching}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Examples of launching}{23}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Normal mode}{23}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Debug mode}{25}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Testing}{25}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Haptic thread}{26}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Game logic}{26}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {7}Final conclusions}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}Project evaluation}{27}{section.7.1}
+\contentsline {section}{\numberline {7.2}Similar project results}{27}{section.7.2}
+\contentsline {section}{\numberline {7.3}Summary}{28}{section.7.3}
+\contentsline {chapter}{Bibliography}{29}{chapter*.2}
+\contentsline {chapter}{\numberline {A}Added CD's desctiption}{30}{appendix.A}

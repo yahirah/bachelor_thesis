@@ -1,0 +1,64 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Haptic devices}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Dyspraxia}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Project goal}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Report content}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Analysis}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Developmental coordination disorder \(dyspraxia\)}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Prevalence}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Symptoms}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{Real-life impact}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{Diagnosing}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.6}{Treatment}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.7}{Haptic devices in rehabilitation}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.8}{Haptic factors essential for rehabilitation. Phantom Omni description.}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.9}{Game rules analysis}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Design}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Basic game rules and objects}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{Path}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.2}{Haptic objects and displayed objects}{section.3.1}% 19
+\BOOKMARK [1][-]{section.3.2}{Levelling up}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Controls}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Display and scene}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.5}{Measuring player's score}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Implementation}{}% 24
+\BOOKMARK [1][-]{section.4.1}{Haptic devices}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{Programming language and libraries}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Graphic library}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.2}{Haptic library}{section.4.2}% 28
+\BOOKMARK [2][-]{subsection.4.2.3}{Programming language}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.4}{Code samples}{section.4.2}% 30
+\BOOKMARK [1][-]{section.4.3}{Other used programming tools}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.3.1}{IDE}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.2}{Version control}{section.4.3}% 33
+\BOOKMARK [1][-]{section.4.4}{Components}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Data flow}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.6}{Class structure}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.6.1}{Data structures}{section.4.6}% 37
+\BOOKMARK [2][-]{subsection.4.6.2}{Initialization}{section.4.6}% 38
+\BOOKMARK [2][-]{subsection.4.6.3}{Drawing components}{section.4.6}% 39
+\BOOKMARK [2][-]{subsection.4.6.4}{Haptic components}{section.4.6}% 40
+\BOOKMARK [2][-]{subsection.4.6.5}{Controllers}{section.4.6}% 41
+\BOOKMARK [2][-]{subsection.4.6.6}{Camera}{section.4.6}% 42
+\BOOKMARK [1][-]{section.4.7}{Implementation details}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.7.1}{Path graphical and haptic representation}{section.4.7}% 44
+\BOOKMARK [2][-]{subsection.4.7.2}{Progress detecting}{section.4.7}% 45
+\BOOKMARK [0][-]{chapter.5}{User's manual}{}% 46
+\BOOKMARK [1][-]{section.5.1}{Launching prerequisites}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.2}{General tips}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.3}{Controls}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.4}{Advanced options}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.5}{Quitting the game}{chapter.5}% 51
+\BOOKMARK [0][-]{chapter.6}{Testing and launching}{}% 52
+\BOOKMARK [1][-]{section.6.1}{Examples of launching}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.1.1}{Normal mode}{section.6.1}% 54
+\BOOKMARK [2][-]{subsection.6.1.2}{Debug mode}{section.6.1}% 55
+\BOOKMARK [1][-]{section.6.2}{Testing}{chapter.6}% 56
+\BOOKMARK [2][-]{subsection.6.2.1}{Haptic thread}{section.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.2.2}{Game logic}{section.6.2}% 58
+\BOOKMARK [0][-]{chapter.7}{Final conclusions}{}% 59
+\BOOKMARK [1][-]{section.7.1}{Project evaluation}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.2}{Similar project results}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.3}{Summary}{chapter.7}% 62
+\BOOKMARK [0][-]{chapter*.2}{Bibliography}{}% 63
+\BOOKMARK [0][-]{appendix.A}{Added CD's desctiption}{}% 64

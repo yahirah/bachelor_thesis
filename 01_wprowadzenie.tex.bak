@@ -1,0 +1,34 @@
+\chapter{Introduction}
+In the modern world, physicians are able to successfully identify and treat significantly more illnesses and disorders than a century ago. New break-through ideas in genetics and neurology help to diagnose and prevent sicknesses. Development in imaging techniques facilitates great advance in research on functioning of human body and identification of disorders.   
+
+Cutting-edge technologies are crucial in the field of rehabilitation and surgery. New artificial limbs are being developed in order to better resemble functions of its biological original. Access to robotic surgical system enables physicians to perform far more precise and difficult surgeries and procedures than ever. Because of the usage of advanced graphical tools and 3D-printers it is possible to create more accurate prostheses for patients who suffered severe body damage.
+
+\section{Haptic devices}
+Specialized devices are being developed to resemble real-world reaction and be able to precisely identify operators' movements and intentions. The kind that focuses on generating real-time responses is called haptic devices. The most important feature of this type of controller is a tactile feedback produced by it that render the feeling of the texture and shape of objects shown on the screen of the computer. 
+
+Haptic devices are widely used in medicine. They serve as controllers for advanced graphical tools in which one can model precise and customised prostheses. Special applications are designed for beginner dentists and other physicians in order to provide opportunity to develop and practice their skills. For example, process of identifying cavity or performing a precise biopsy can be iterated as long as necessary without endangering the patient. This solution brings richer experience to professional training with lower cost and in safe, comfortable conditions. While the physician uses the stylus as a surgical instrument, the device provides realistic tactile feedback, which can resemble tissue softness or skeleton structure. The whole process is visualised as a graphical model by the application.
+
+\section{Dyspraxia}
+Studies show increasing number of neurodevelopmental disorders being diagnosed among children and adults. One of them is dyspraxia, also known as developmental coordination disorder (DCD), an inability to plan, organise and coordinate movement \cite{4}. Depending on the level of severity, it can be a reason of small difficulties in everyday activities, for example fastening buttons or shoelaces, but may also make one unable to drive a car because of affecting working memory and coordination skills. 
+
+There are several various difficulties that occur during treatment of DCD. One of the most significant obstacles is a problem with conducting proper diagnose. Another - existing systems of therapy, not all of them equally effective, but all requiring experts in rehabilitation or psychology and hours of exercises with professionals. These problems will be addressed in chapter \ref{analysis}: \nameref{analysis}.
+
+DCD is very often observed among children in primary school. The most efficient way of treatment for this age group seems to be the "serious game". It allows to develop the necessary coordination or mental skills. Disguising the exercise as a game makes it more entertaining and pleasurable for a child.
+
+\section{Project goal}
+The main goal of this project is to create a coordination improving serious game, controlled by 3-dimensional haptic device that could be an effective tool in treatment of children with dyspraxia.
+
+\section{Report content}
+ This report consists of the following chapters:
+\begin{itemize} [noitemsep]
+\item \nameref{analysis} - consists of:
+\begin{itemize} [noitemsep]
+\item a detailed description of dyspraxia and its treatment, 
+\item usage of a haptic device in rehabilitation, 
+\item significance of selected haptic factors in medical use of the software,
+\end{itemize}
+\item \nameref{design} - non-technical description of project requirements and game logic,
+\item \nameref{implementation} - includes documentation, information about project composition, data structures and  selected programming tools, 
+\item \nameref{testing} - includes user's manual, launching examples and testing of application,
+\item \nameref{conclusions} - sums up the report.
+\end{itemize}

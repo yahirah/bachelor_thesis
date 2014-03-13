@@ -1,0 +1,44 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+\begin{figure}
+\center
+\vspace{1cm}
+\includegraphics[width=3.2cm]{Images/polsl}
+\vspace{1cm}
+\end{figure}
+
+% it appears that cmss font from OT4 doesn't have sc mode
+% other available fonts are not as pleasant, thus the foregoing cheat
+\center
+\textbf{ \LARGE{}S\Large{}ILESIAN~\LARGE{}U\Large{}NIVERSITY~\LARGE{}O\Large{}F~\LARGE{}T\Large{}ECHNOLOGY \\}
+\textbf{ \
+\LARGE{}F\Large{}ACULTY~\LARGE{}O\Large{}F~\LARGE{}A\Large{}UTOMATIC~\LARGE{}C\Large{}ONTROL,~\LARGE{}E\Large{}LECTRONICS~AND~\\\LARGE{}C\Large{}OMPUTER~\LARGE{}S\Large{}CIENCE \\
+}
+\huge
+\vspace{4cm}
+Final Project
+
+\vspace{1.5cm}
+\LARGE
+The use of a three-dimensional haptic manipulator-controlled gaming in the treatment of developmental~coordination~disorder
+\end{center}
+
+\vspace{2.5cm}
+\Large
+\noindent
+Author: Anna Wałach 
+Supervisor: dr inż. Agnieszka Szczęsna
+
+\vspace{2cm}
+\large
+\noindent
+\center
+Gliwice, January 2014
+
+\clearpage
+\thispagestyle{empty}
+\phantom{a}
+\mbox{}
+\clearpage
+\end{titlepage}

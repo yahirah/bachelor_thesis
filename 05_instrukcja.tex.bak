@@ -1,0 +1,42 @@
+\chapter{User's manual}
+
+This manual describes game requirements and controls. 
+
+
+\section{Launching prerequisites}
+\begin{itemize}
+\item In order to run the application it is required to plug Phantom Omni Device (through 6-pin FireWire port) and install a proper, up-to-date driver. 
+\item Suggested systems are Microsoft Windows XP/Vista/7 (32/64 bit). 
+\item The graphic card should support OpenGL version (at least) 3.2. 
+\end{itemize}
+
+\section{General tips}
+General clues about playing the game are:
+\begin{enumerate} [noitemsep]
+\item Round is started by touching the curve. 
+\item The precision of a player's movement is more important than it's speed. Moving too fast will cause not acquiring the points player passed(because of low sampling frequency). 
+\item Game loads new level(or reset the level) automatically.
+\end{enumerate}
+
+\section{Controls}
+Three main input devices that control the application are:
+\begin{itemize} [noitemsep]
+\item \emph{Phantom Omni} - controls the cursor during the game. There are two buttons on the stylus, but they have no influence on application.
+\item \emph{mouse} - controls the camera. Moving while pressing left button allows to rotate the camera, right button - to translate, and middle one - to scale the view.
+\item \emph{keyboard} - responsible for debug/advanced options, not available in normal game
+\end{itemize}
+The player should use only Phantom Omni to control the game and eventually the mouse to adjust the view. The rest should be controlled by the supervisor. 
+
+\section{Advanced options}
+Advanced options are available only from keyboard. They allow to toggle some elements of the scene or use cheats. 
+Possible short-cuts are:
+\begin{itemize} [noitemsep]
+\item "s" - toggle skybox 
+\item "r" - toggle the route view(of player's object)
+\item "p" - toggle the control points of Curve view
+\item "w" - immediate passage to next level
+\item "q" - quit the game
+\end{itemize}
+
+\section{Quitting the game}
+Quitting the game is possible by closing the window or pressing the "q" key. 

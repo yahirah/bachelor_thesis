@@ -1,0 +1,131 @@
+\documentclass[a4paper, twoside]{report}
+\usepackage[utf8x]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage[toc,page]{appendix}
+\usepackage[formats]{listings}
+\usepackage{indentfirst}
+\usepackage{nameref}
+\usepackage{enumitem}
+\usepackage[all]{nowidow}
+%\usepackage[sfmath]{kpfonts}
+%\usepackage[scaled]{helvet}
+%\usepackage{courier}
+
+
+\usepackage[T1]{fontenc}
+
+\usepackage[UKenglish]{babel}
+\selectlanguage {UKenglish}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[pdftex,bookmarks=true,plainpages=false]{hyperref} 
+\usepackage[top=2.5cm,left=3cm,right=2.5cm,bottom=2.5cm]{geometry}
+\renewcommand{\familydefault}{\sfdefault}
+
+\pagestyle{fancyplain}
+\linespread{1.3}
+\clubpenalty=10000 %nie dieli wyrazów pomiędzy stronami 
+\widowpenalty=10000 %nie pozostawia wdów i sierot (krawców i szewców?) pojedynczych 
+
+%% some redefination of the headers and footers
+\renewcommand{\chaptermark}[1]%
+                 {\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]%
+                 {\markright{\thesection\ #1}}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\cfoot{}
+\sloppy
+
+\pdfinfo {
+  /Title (Final Project)
+  /Subject (The use of a three-dimensional manipulator-controlled gaming in the treatment of dyspraxia.)
+  /Author (Anna Wałach)
+  /Keywords (politechnika slaska)
+}
+   
+
+%\usepackage[bookmarksnumbered=true]{hyperref}
+
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{darkbrown}{rgb}{0.64,0.08,0.08}
+
+
+\lstdefinelanguage{XML}
+{
+  basicstyle=\scriptsize\ttfamily,
+  stringstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape,
+	morestring=[b]",
+	morestring=[s]{>}{<},
+	morecomment=[s]{<?}{?>},
+ morecomment = [s]{<!--}{-->},
+	stringstyle=\color{blue},
+	identifierstyle=\color{darkbrown},
+	keywordstyle=\color{red},
+	tabsize=2,
+	breaklines=true,
+	morekeywords={xmlns,version,type,name,
+	defaultProvider,server, port,useSSL,
+	userDNAttribute,userNameAttribute,
+	userContainer,userObjectClass,userFilter,scope, 
+	otherRequiredUserAttributes,enabled,cacheRolesInCookie,
+	cookieName,groupContainer,groupNameAttribute,
+	groupMemberAttribute,dnAttribute,groupFilter,
+	verb, path, loginUrl, stopProcessing, input, matchType,
+	pattern, ignoreCase, negate, statusCode, statusReason,
+	statusDescription, logicalGrouping, url, lockAttributes,
+	subStatusCode, existingResponse, defaultPath, responseMode, 
+	prefixLanguageFilePath}% list your attributes here
+}
+
+
+\lstdefinelanguage{CSharp}
+{
+ morecomment = [l]{//}, 
+ morecomment = [l]{///},
+ morecomment = [s]{/*}{*/},
+ morestring=[b]", 
+ sensitive = true,
+	identifierstyle=\color{darkgray},
+  basicstyle=\ttfamily\scriptsize\color{black},
+  keywordstyle=\color{blue},
+  stringstyle=\color{darkbrown},
+  commentstyle=\color{olive}\upshape,
+  numbers=left,
+  emph={Q,T},
+  breaklines=true,
+  emphstyle=\color{olive},
+ morekeywords = {abstract,  event,  new,  struct,
+   as,  explicit,  null,  switch,
+   base,  extern,  object,  this,
+   bool,  false,  operator,  throw,
+   break,  finally,  out,  true,
+   byte,  fixed,  override,  try,
+   case,  float,  params,  typeof,
+   catch,  for,  private,  uint,
+   char,  foreach,  protected,  ulong,
+   checked,  goto,  public,  unchecked,
+   class,  if,  readonly,  unsafe,
+   const,  implicit,  ref,  ushort,
+   continue,  in,  return,  using,
+   decimal,  int,  sbyte,  virtual,
+   default,  interface,  sealed,  volatile,
+   delegate,  internal,  short,  void,
+   do,  is,  sizeof,  while,
+   double,  lock,  stackalloc,   
+   else,  long,  static,   
+   enum,  namespace,  string}
+}
